@@ -1,0 +1,641 @@
+"use client";
+
+import React from "react";
+
+export const MenuIcon: React.FC = () => (
+  <svg
+    width="23"
+    height="19"
+    viewBox="0 0 23 19"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className="menu-icon"
+  >
+    <path
+      d="M22.6042 16.1458V17.4375H5.8125V16.1458H22.6042ZM1.29167 15.5C1.63424 15.5 1.96278 15.6361 2.20501 15.8783C2.44725 16.1206 2.58333 16.4491 2.58333 16.7917C2.58333 17.1342 2.44725 17.4628 2.20501 17.705C1.96278 17.9473 1.63424 18.0833 1.29167 18.0833C0.949095 18.0833 0.620555 17.9473 0.37832 17.705C0.136086 17.4628 0 17.1342 0 16.7917C0 16.4491 0.136086 16.1206 0.37832 15.8783C0.620555 15.6361 0.949095 15.5 1.29167 15.5ZM22.6042 8.39583V9.6875H5.8125V8.39583H22.6042ZM1.29167 7.75C1.63424 7.75 1.96278 7.88609 2.20501 8.12832C2.44725 8.37056 2.58333 8.6991 2.58333 9.04167C2.58333 9.38424 2.44725 9.71278 2.20501 9.95501C1.96278 10.1972 1.63424 10.3333 1.29167 10.3333C0.949095 10.3333 0.620555 10.1972 0.37832 9.95501C0.136086 9.71278 0 9.38424 0 9.04167C0 8.6991 0.136086 8.37056 0.37832 8.12832C0.620555 7.88609 0.949095 7.75 1.29167 7.75ZM22.6042 0.645833V1.9375H5.8125V0.645833H22.6042ZM1.29167 0C1.63424 0 1.96278 0.136086 2.20501 0.378321C2.44725 0.620555 2.58333 0.949095 2.58333 1.29167C2.58333 1.63424 2.44725 1.96278 2.20501 2.20501C1.96278 2.44725 1.63424 2.58333 1.29167 2.58333C0.949095 2.58333 0.620555 2.44725 0.37832 2.20501C0.136086 1.96278 0 1.63424 0 1.29167C0 0.949095 0.136086 0.620555 0.37832 0.378321C0.620555 0.136086 0.949095 0 1.29167 0Z"
+      fill="black"
+    />
+  </svg>
+);
+
+export const BellIcon: React.FC = () => (
+  <svg
+    width="38"
+    height="38"
+    viewBox="0 0 38 38"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className="bell-icon"
+  >
+    <path
+      d="M19 7.125C19 6.91504 18.9166 6.71367 18.7681 6.56521C18.6197 6.41674 18.4183 6.33333 18.2083 6.33333C17.9984 6.33333 17.797 6.41674 17.6485 6.56521C17.5001 6.71367 17.4167 6.91504 17.4167 7.125V9.5475C13.8542 9.94333 11.0833 12.9517 11.0833 16.625V25.9825L8.56583 28.5H27.8508L25.3333 25.9825V16.625C25.3333 12.9517 22.5625 9.94333 19 9.5475V7.125ZM18.2083 4.75C18.8382 4.75 19.4423 5.00022 19.8877 5.44562C20.3331 5.89102 20.5833 6.49511 20.5833 7.125V8.24917C24.2408 9.27833 26.9167 12.6667 26.9167 16.625V25.3333L31.6667 30.0833H4.75L9.5 25.3333V16.625C9.5 12.6667 12.1758 9.27833 15.8333 8.24917V7.125C15.8333 6.49511 16.0836 5.89102 16.529 5.44562C16.9744 5.00022 17.5784 4.75 18.2083 4.75ZM18.2083 34.8333C17.2958 34.8335 16.4113 34.5184 15.7044 33.9414C14.9975 33.3643 14.5117 32.5607 14.3292 31.6667H15.9758C16.1387 32.1287 16.4409 32.5289 16.8407 32.8119C17.2406 33.095 17.7184 33.247 18.2083 33.247C18.6982 33.247 19.1761 33.095 19.5759 32.8119C19.9758 32.5289 20.278 32.1287 20.4408 31.6667H22.0875C21.905 32.5607 21.4192 33.3643 20.7123 33.9414C20.0054 34.5184 19.1208 34.8335 18.2083 34.8333Z"
+      fill="black"
+    />
+  </svg>
+);
+
+export const SearchIcon: React.FC = () => (
+  <svg
+    width="18"
+    height="19"
+    viewBox="0 0 18 19"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className="search-icon mr-[15px]"
+  >
+    <path
+      opacity="0.9"
+      d="M17.308 18.6101L13.3759 14.4729L17.308 18.6101ZM15.5549 8.94378C15.5549 11.0191 14.7699 13.0095 13.3727 14.477C11.9755 15.9445 10.0804 16.7689 8.10442 16.7689C6.12842 16.7689 4.23336 15.9445 2.83613 14.477C1.43889 13.0095 0.653931 11.0191 0.653931 8.94378C0.653931 6.86842 1.43889 4.87806 2.83613 3.41056C4.23336 1.94306 6.12842 1.11862 8.10442 1.11862C10.0804 1.11862 11.9755 1.94306 13.3727 3.41056C14.7699 4.87806 15.5549 6.86842 15.5549 8.94378V8.94378Z"
+      stroke="black"
+      strokeWidth="0.842105"
+      strokeLinecap="round"
+    />
+  </svg>
+);
+
+export const CircleIcon: React.FC = () => (
+  <svg
+    width="31"
+    height="30"
+    viewBox="0 0 31 30"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className="nav-icon-circle"
+  >
+    <ellipse cx="15.5" cy="15" rx="15.5" ry="15" fill="#00A613" />
+  </svg>
+);
+
+export const DocumentIcon: React.FC = () => (
+  <svg
+    width="21"
+    height="22"
+    viewBox="0 0 21 22"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className="nav-icon-white"
+  >
+    <path
+      d="M17.3479 0H3.46959C2.5494 0 1.66689 0.287946 1.01622 0.800492C0.365545 1.31304 0 2.0082 0 2.73305V19.1314C0 19.8562 0.365545 20.5514 1.01622 21.0639C1.66689 21.5765 2.5494 21.8644 3.46959 21.8644H17.3479C18.2681 21.8644 19.1506 21.5765 19.8013 21.0639C20.452 20.5514 20.8175 19.8562 20.8175 19.1314V2.73305C20.8175 2.0082 20.452 1.31304 19.8013 0.800492C19.1506 0.287946 18.2681 0 17.3479 0ZM5.20438 5.4661H15.6132C15.8432 5.4661 16.0638 5.53809 16.2265 5.66622C16.3892 5.79436 16.4805 5.96815 16.4805 6.14936C16.4805 6.33058 16.3892 6.50437 16.2265 6.6325C16.0638 6.76064 15.8432 6.83263 15.6132 6.83263H5.20438C4.97434 6.83263 4.75371 6.76064 4.59104 6.6325C4.42837 6.50437 4.33699 6.33058 4.33699 6.14936C4.33699 5.96815 4.42837 5.79436 4.59104 5.66622C4.75371 5.53809 4.97434 5.4661 5.20438 5.4661ZM4.33699 8.88242C4.33699 8.7012 4.42837 8.52741 4.59104 8.39928C4.75371 8.27114 4.97434 8.19915 5.20438 8.19915H15.6132C15.8432 8.19915 16.0638 8.27114 16.2265 8.39928C16.3892 8.52741 16.4805 8.7012 16.4805 8.88242C16.4805 9.06363 16.3892 9.23742 16.2265 9.36555C16.0638 9.49369 15.8432 9.56568 15.6132 9.56568H5.20438C4.97434 9.56568 4.75371 9.49369 4.59104 9.36555C4.42837 9.23742 4.33699 9.06363 4.33699 8.88242ZM5.20438 10.9322H15.6132C15.8432 10.9322 16.0638 11.0042 16.2265 11.1323C16.3892 11.2605 16.4805 11.4343 16.4805 11.6155C16.4805 11.7967 16.3892 11.9705 16.2265 12.0986C16.0638 12.2267 15.8432 12.2987 15.6132 12.2987H5.20438C4.97434 12.2987 4.75371 12.2267 4.59104 12.0986C4.42837 11.9705 4.33699 11.7967 4.33699 11.6155C4.33699 11.4343 4.42837 11.2605 4.59104 11.1323C4.75371 11.0042 4.97434 10.9322 5.20438 10.9322ZM5.20438 13.6653H10.4088C10.6388 13.6653 10.8594 13.7372 11.0221 13.8654C11.1848 13.9935 11.2762 14.1673 11.2762 14.3485C11.2762 14.5297 11.1848 14.7035 11.0221 14.8317C10.8594 14.9598 10.6388 15.0318 10.4088 15.0318H5.20438C4.97434 15.0318 4.75371 14.9598 4.59104 14.8317C4.42837 14.7035 4.33699 14.5297 4.33699 14.3485C4.33699 14.1673 4.42837 13.9935 4.59104 13.8654C4.75371 13.7372 4.97434 13.6653 5.20438 13.6653Z"
+      fill="white"
+    />
+  </svg>
+);
+
+export const HomeIcon: React.FC = () => (
+  <svg
+    width="21"
+    height="22"
+    viewBox="0 0 21 22"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className="nav-icon"
+  >
+    <path
+      d="M10.7712 0.78481L19.9991 9.26187L19.9991 9.26189L20.3175 9.55445V21.3644H13.1392V14.0694V13.5694H12.6392H8.17832H7.67832V14.0694V21.3644H0.5V9.57868L0.788813 9.29033L0.788833 9.29031L9.27584 0.81588L8.92347 0.462996L9.27584 0.815877C9.4728 0.619206 9.73842 0.506031 10.0172 0.500234C10.296 0.494437 10.5661 0.596474 10.7711 0.784807L11.1087 0.417365L10.7712 0.78481ZM9.66878 1.17467L9.62207 1.22096C9.63494 1.20031 9.64557 1.18667 9.64999 1.18101L9.6507 1.1801C9.66388 1.16314 9.67703 1.1486 9.68844 1.13696L9.69485 1.14349L9.66878 1.17467ZM10.3769 1.14093L10.3748 1.13901L10.3824 1.13101L10.3826 1.13119C10.3894 1.13788 10.4132 1.16111 10.4394 1.19791L10.3769 1.14093ZM9.58797 1.25476L1.13502 9.6312L0.986967 9.77792V9.98636V20.3797V20.8797H1.48697H6.69135H7.19135V20.3797V14.0694C7.19135 13.8085 7.29515 13.5581 7.48016 13.3734C7.6652 13.1886 7.91632 13.0847 8.17832 13.0847H12.6392C12.9012 13.0847 13.1523 13.1886 13.3374 13.3734C13.5224 13.5581 13.6262 13.8085 13.6262 14.0694V20.3797V20.8797H14.1262H19.3306H19.8306V20.3797V9.98636V9.7657L19.6676 9.61698L10.478 1.23318C10.413 1.12115 10.3182 1.06194 10.2594 1.03376L9.99113 0.788989L9.75942 1.06623C9.70408 1.10209 9.64144 1.15794 9.59396 1.24364C9.5919 1.24735 9.5899 1.25106 9.58797 1.25476Z"
+      fill="#00A613"
+      stroke="#00A613"
+    />
+  </svg>
+);
+
+export const CartIcon: React.FC = () => (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className="nav-icon"
+  >
+    <path
+      d="M17 18C15.89 18 15 18.89 15 20C15 20.5304 15.2107 21.0391 15.5858 21.4142C15.9609 21.7893 16.4696 22 17 22C17.5304 22 18.0391 21.7893 18.4142 21.4142C18.7893 21.0391 19 20.5304 19 20C19 19.4696 18.7893 18.9609 18.4142 18.5858C18.0391 18.2107 17.5304 18 17 18ZM1 2V4H3L6.6 11.59L5.24 14.04C5.09 14.32 5 14.65 5 15C5 15.5304 5.21071 16.0391 5.58579 16.4142C5.96086 16.7893 6.46957 17 7 17H19V15H7.42C7.3537 15 7.29011 14.9737 7.24322 14.9268C7.19634 14.8799 7.17 14.8163 7.17 14.75C7.17 14.7 7.18 14.66 7.2 14.63L8.1 13H15.55C16.3 13 16.96 12.58 17.3 11.97L20.88 5.5C20.95 5.34 21 5.17 21 5C21 4.73478 20.8946 4.48043 20.7071 4.29289C20.5196 4.10536 20.2652 4 20 4H5.21L4.27 2M7 18C5.89 18 5 18.89 5 20C5 20.5304 5.21071 21.0391 5.58579 21.4142C5.96086 21.7893 6.46957 22 7 22C7.53043 22 8.03914 21.7893 8.41421 21.4142C8.78929 21.0391 9 20.5304 9 20C9 19.4696 8.78929 18.9609 8.41421 18.5858C8.03914 18.2107 7.53043 18 7 18Z"
+      fill="#00A613"
+    />
+  </svg>
+);
+
+export const UserIcon: React.FC = () => (
+  <svg
+    width="21"
+    height="23"
+    viewBox="0 0 21 23"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className="nav-icon"
+  >
+    <path
+      d="M10.4088 11.7966C11.7891 11.7966 13.1128 11.2208 14.0888 10.1957C15.0648 9.17057 15.6132 7.78024 15.6132 6.33054C15.6132 4.88084 15.0648 3.49052 14.0888 2.46543C13.1128 1.44033 11.7891 0.864441 10.4088 0.864441C9.02848 0.864441 7.70472 1.44033 6.72871 2.46543C5.7527 3.49052 5.20438 4.88084 5.20438 6.33054C5.20438 7.78024 5.7527 9.17057 6.72871 10.1957C7.70472 11.2208 9.02848 11.7966 10.4088 11.7966ZM13.8784 6.33054C13.8784 7.29701 13.5128 8.22389 12.8621 8.90729C12.2115 9.59068 11.329 9.97461 10.4088 9.97461C9.48857 9.97461 8.60607 9.59068 7.9554 8.90729C7.30472 8.22389 6.93918 7.29701 6.93918 6.33054C6.93918 5.36408 7.30472 4.43719 7.9554 3.7538C8.60607 3.0704 9.48857 2.68647 10.4088 2.68647C11.329 2.68647 12.2115 3.0704 12.8621 3.7538C13.5128 4.43719 13.8784 5.36408 13.8784 6.33054ZM20.8175 20.9068C20.8175 22.7288 19.0827 22.7288 19.0827 22.7288H1.73479C1.73479 22.7288 0 22.7288 0 20.9068C0 19.0848 1.73479 13.6187 10.4088 13.6187C19.0827 13.6187 20.8175 19.0848 20.8175 20.9068ZM19.0827 20.8995C19.081 20.4513 18.8156 19.103 17.6394 17.8677C16.5083 16.6797 14.3797 15.4407 10.4088 15.4407C6.43609 15.4407 4.30923 16.6797 3.17814 17.8677C2.00195 19.103 1.73826 20.4513 1.73479 20.8995H19.0827Z"
+      fill="#00A613"
+    />
+  </svg>
+);
+"use client";
+
+import React from "react";
+import { MenuIcon, BellIcon } from "./Icons";
+
+const Header: React.FC = () => {
+  return (
+    <header className="flex justify-between items-center p-5 mt-16">
+      <button aria-label="Menu">
+        <MenuIcon />
+      </button>
+      <h1 className="text-xl font-bold tracking-tight text-green-600">Menu</h1>
+      <button aria-label="Notifications">
+        <BellIcon />
+      </button>
+    </header>
+  );
+};
+
+export default Header;
+"use client";
+
+import React from "react";
+import { SearchIcon } from "./Icons";
+
+const SearchBar: React.FC = () => {
+  return (
+    <div className="flex items-center p-3.5 mb-8 rounded-md bg-stone-50 shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
+      <SearchIcon />
+      <span className="text-xs text-green-600 opacity-40">
+        Search Your Manus
+      </span>
+    </div>
+  );
+};
+
+export default SearchBar;
+"use client";
+
+import React from "react";
+
+interface CategoryProps {
+  name: string;
+  isActive?: boolean;
+}
+
+const Category: React.FC<CategoryProps> = ({ name, isActive = false }) => {
+  return (
+    <button className="text-xs italic font-extrabold text-green-600 opacity-70 cursor-pointer">
+      {name}
+    </button>
+  );
+};
+
+const FoodCategories: React.FC = () => {
+  return (
+    <section className="mb-8">
+      <h2 className="mb-2 text-xs font-bold text-green-600 opacity-70">
+        Our Food
+      </h2>
+      <h3 className="mb-6 text-xs font-bold text-green-600">Today's Special</h3>
+      <div className="flex relative gap-6">
+        <Category name="All" />
+        <Category name="Featured" isActive={true} />
+        <Category name="Top of Week" />
+        <Category name="Soup" />
+        <Category name="Seafood" />
+        <div className="absolute -bottom-2.5 h-0.5 bg-green-600 rounded-md left-[62px] w-[19px]" />
+      </div>
+    </section>
+  );
+};
+
+export default FoodCategories;
+"use client";
+
+import React from "react";
+
+interface FoodItemProps {
+  image: string;
+  name: string;
+  price: string;
+  altText: string;
+}
+
+const FoodItem: React.FC<FoodItemProps> = ({ image, name, price, altText }) => {
+  return (
+    <article className="flex flex-col items-center text-center">
+      <img
+        src={image}
+        alt={altText}
+        className="object-cover rounded-xl h-[173px] w-[167px] max-sm:h-[140px] max-sm:w-[140px]"
+      />
+      <h3 className="mt-2.5 text-xs italic font-extrabold text-black opacity-80">
+        {name}
+      </h3>
+      <p className="mt-1.5 text-xs italic font-extrabold text-green-600 opacity-80">
+        {price}
+      </p>
+    </article>
+  );
+};
+
+export default FoodItem;
+"use client";
+
+import React from "react";
+import FoodItem from "./FoodItem";
+
+const FoodGrid: React.FC = () => {
+  const foodItems = [
+    {
+      id: 1,
+      image:
+        "https://cdn.builder.io/api/v1/image/assets/TEMP/ca258fa29022989ca2c9b456f1f53506f41dfdf3",
+      name: "French Fries",
+      price: "₹120",
+      altText: "French Fries",
+    },
+    {
+      id: 2,
+      image:
+        "https://cdn.builder.io/api/v1/image/assets/TEMP/4bf7f60bb493f6d182986152b6900b7ececad0ba",
+      name: "Veg Burger",
+      price: "₹199",
+      altText: "Veg Burger",
+    },
+    {
+      id: 3,
+      image:
+        "https://cdn.builder.io/api/v1/image/assets/TEMP/6cd92b65390fe938d7eb530e587beb7ee3b19891",
+      name: "Chicken Burger",
+      price: "₹249",
+      altText: "Chicken Burger",
+    },
+    {
+      id: 10,
+      image:
+        "https://cdn.builder.io/api/v1/image/assets/TEMP/ea123f5b6ac49f3e34cc4bc7902882390c9c4b1f",
+      name: "Chicken Burger with French Fries",
+      price: "₹399",
+      altText: "Chicken Burger with French Fries",
+    },
+  ];
+
+  return (
+    <section className="grid gap-5 p-5 grid-cols-[1fr_1fr] max-sm:gap-2.5 max-sm:grid-cols-[1fr_1fr]">
+      {foodItems.map((item) => (
+        <FoodItem
+          key={item.id}
+          image={item.image}
+          name={item.name}
+          price={item.price}
+          altText={item.altText}
+        />
+      ))}
+    </section>
+  );
+};
+
+export default FoodGrid;
+"use client";
+
+import React from "react";
+import {
+  UserIcon,
+  CircleIcon,
+  DocumentIcon,
+  HomeIcon,
+  CartIcon,
+} from "./Icons";
+
+const BottomNav: React.FC = () => {
+  return (
+    <nav className="flex fixed bottom-0 justify-around items-center px-5 py-0 w-full bg-white h-[60px] max-w-[428px]">
+      <button aria-label="Profile">
+        <UserIcon />
+      </button>
+      <button aria-label="Menu" className="relative">
+        <CircleIcon />
+        <span className="absolute inset-0 flex items-center justify-center">
+          <DocumentIcon />
+        </span>
+      </button>
+      <button aria-label="Home">
+        <HomeIcon />
+      </button>
+      <button aria-label="Empty">
+        <div className="w-6 h-6"></div>
+      </button>
+      <button aria-label="Cart">
+        <CartIcon />
+      </button>
+    </nav>
+  );
+};
+
+export default BottomNav;
+"use client";
+
+import React from "react";
+import Header from "./Header";
+import SearchBar from "./SearchBar";
+import FoodCategories from "./FoodCategories";
+import FoodGrid from "./FoodGrid";
+import BottomNav from "./BottomNav";
+
+const AppContainer: React.FC = () => {
+  return (
+    <main className="relative w-full h-screen max-w-[428px] max-sm:h-screen">
+      <Header />
+      <section className="px-5 py-0">
+        <SearchBar />
+        <FoodCategories />
+      </section>
+      <FoodGrid />
+      <BottomNav />
+    </main>
+  );
+};
+
+export default AppContainer;
+export interface BurgerItem {
+  id: string;
+  name: string;
+  price: number;
+  image: string;
+  quantity: number;
+}
+
+export interface BurgerItemProps {
+  item: BurgerItem;
+  onIncrement: (id: string) => void;
+  onDecrement: (id: string) => void;
+}
+
+export interface AddToCartButtonProps {
+  onClick: () => void;
+}
+import React from "react";
+
+const BurgerHeader: React.FC = () => {
+  return (
+    <header className="flex flex-col max-w-full text-base font-extrabold tracking-tight text-center text-black whitespace-nowrap w-[225px]">
+      <img
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/d5a8a9548984d43e475978c374e5fffe7a600b9b20f9357682a82d3eb8a9a7a9?placeholderIfAbsent=true&apiKey=bd2d397bb31541518f9da939b19b8b0d"
+        alt="Menu icon"
+        className="object-contain w-2.5 aspect-[0.5]"
+      />
+      <h1 className="self-end mt-3">Burger</h1>
+    </header>
+  );
+};
+
+export default BurgerHeader;
+import React from "react";
+import { BurgerItemProps } from "./types";
+
+const BurgerItem: React.FC<BurgerItemProps> = ({
+  item,
+  onIncrement,
+  onDecrement,
+}) => {
+  const { id, name, price, image, quantity } = item;
+
+  return (
+    <article className="flex gap-5 justify-between items-start pt-9 pr-6 pb-4 pl-1.5 mt-7 w-full bg-white rounded-xl shadow-[0px_4px_4px_rgba(0,0,0,0.2)]">
+      <img
+        src={image}
+        alt={name}
+        className="object-contain shrink-0 self-start rounded-full aspect-[0.99] w-[71px]"
+      />
+      <div className="flex flex-col self-start text-xs font-extrabold text-green-600">
+        <h3>{name}</h3>
+        <p className="self-start mt-12">₹{price}</p>
+      </div>
+      <div className="flex gap-5 items-center">
+        <button
+          onClick={() => onIncrement(id)}
+          className="text-xs font-extrabold my-auto"
+          aria-label="Add one"
+        >
+          +
+        </button>
+        <button
+          onClick={() => onDecrement(id)}
+          className="px-2.5 pb-6 my-auto w-6 h-6 text-xs font-extrabold text-white bg-green-600 rounded"
+          aria-label="Remove one"
+        >
+          -
+        </button>
+      </div>
+    </article>
+  );
+};
+
+export default BurgerItem;
+import React from "react";
+import { AddToCartButtonProps } from "./types";
+
+const AddToCartButton: React.FC<AddToCartButtonProps> = ({ onClick }) => {
+  return (
+    <div className="flex gap-5 justify-between self-center mt-40 mb-0 w-full text-base font-bold tracking-normal text-center text-white max-w-[338px]">
+      <img
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/43aad7502de54ab750324ebd81e5701949267a608546b532ded07a188bf8160d?placeholderIfAbsent=true&apiKey=bd2d397bb31541518f9da939b19b8b0d"
+        alt="Cart icon"
+        className="object-contain shrink-0 my-auto aspect-square w-[47px]"
+      />
+      <button
+        onClick={onClick}
+        className="flex gap-8 px-10 py-3.5 bg-green-600 rounded-xl"
+        aria-label="Add to cart"
+      >
+        <span className="my-auto">Add to Cart</span>
+        <img
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/f6ef1b5703232af95113b054bab79fa578e698c8aa0bef303bef7e8f95bbd795?placeholderIfAbsent=true&apiKey=bd2d397bb31541518f9da939b19b8b0d"
+          alt="Cart icon"
+          className="object-contain shrink-0 w-6 aspect-square"
+        />
+      </button>
+    </div>
+  );
+};
+
+export default AddToCartButton;
+"use client";
+
+import React, { useState } from "react";
+import BurgerHeader from "./BurgerHeader";
+import BurgerItem from "./BurgerItem";
+import AddToCartButton from "./AddToCartButton";
+import { BurgerItem as BurgerItemType } from "./types";
+
+const BurgerApp: React.FC = () => {
+  const [burgerItems, setBurgerItems] = useState<BurgerItemType[]>([
+    {
+      id: "1",
+      name: "Cheese Burger",
+      price: 199,
+      image:
+        "https://cdn.builder.io/api/v1/image/assets/TEMP/e9f4246c664d26c32c8b824ee194428ea4ffe2198ec9b6fb54aad4e178ec640c?placeholderIfAbsent=true&apiKey=bd2d397bb31541518f9da939b19b8b0d",
+      quantity: 1,
+    },
+    {
+      id: "2",
+      name: "Crisspy Cheese Burger",
+      price: 230,
+      image:
+        "https://cdn.builder.io/api/v1/image/assets/TEMP/721c6282796725fe4deb2d8c9bf4a89378c74401e35d8ee46c15b266345372c9?placeholderIfAbsent=true&apiKey=bd2d397bb31541518f9da939b19b8b0d",
+      quantity: 1,
+    },
+    {
+      id: "3",
+      name: "Veg Burger",
+      price: 199,
+      image:
+        "https://cdn.builder.io/api/v1/image/assets/TEMP/fbc07c82e7ff7bb34307ffe8ab44fdabe4de75e804203dae4885fd86723665d2?placeholderIfAbsent=true&apiKey=bd2d397bb31541518f9da939b19b8b0d",
+      quantity: 1,
+    },
+  ]);
+
+  const handleIncrement = (id: string) => {
+    setBurgerItems(
+      burgerItems.map((item) =>
+        item.id === id ? { ...item, quantity: item.quantity + 1 } : item,
+      ),
+    );
+  };
+
+  const handleDecrement = (id: string) => {
+    setBurgerItems(
+      burgerItems.map((item) =>
+        item.id === id && item.quantity > 0
+          ? { ...item, quantity: item.quantity - 1 }
+          : item,
+      ),
+    );
+  };
+
+  const handleAddToCart = () => {
+    // In a real app, this would add the items to a cart
+    console.log(
+      "Adding to cart:",
+      burgerItems.filter((item) => item.quantity > 0),
+    );
+    alert("Items added to cart!");
+  };
+
+  // Custom rendering for the first item to match the design exactly
+  const renderFirstItem = () => {
+    const item = burgerItems[0];
+    return (
+      <article className="pt-10 pr-6 pb-2.5 pl-0.5 mt-12 w-full bg-white rounded-xl shadow-[0px_4px_4px_rgba(0,0,0,0.2)]">
+        <div className="flex gap-5 max-md:flex-col">
+          <div className="w-[26%] max-md:ml-0 max-md:w-full">
+            <img
+              src={item.image}
+              alt={item.name}
+              className="object-contain shrink-0 mt-1 rounded-full aspect-square w-[72px]"
+            />
+          </div>
+          <div className="ml-5 w-2/5 max-md:ml-0 max-md:w-full">
+            <div className="flex gap-3.5 items-start text-xs font-extrabold text-center text-green-600">
+              <p className="self-end mt-14 tracking-normal">₹{item.price}</p>
+              <h3 className="self-start tracking-normal">{item.name}</h3>
+            </div>
+          </div>
+          <div className="ml-5 w-[34%] max-md:ml-0 max-md:w-full">
+            <div className="flex gap-10 self-stretch my-auto text-xs font-extrabold tracking-normal text-center text-white whitespace-nowrap">
+              <button
+                onClick={() => handleIncrement(item.id)}
+                className="self-start"
+                aria-label="Add one"
+              >
+                +
+              </button>
+              <button
+                onClick={() => handleDecrement(item.id)}
+                className="px-2.5 pt-0.5 pb-5 w-6 h-6 bg-green-600 rounded"
+                aria-label="Remove one"
+              >
+                -
+              </button>
+            </div>
+          </div>
+        </div>
+      </article>
+    );
+  };
+
+  // Custom rendering for the second item to match the design exactly
+  const renderSecondItem = () => {
+    const item = burgerItems[1];
+    return (
+      <article className="flex gap-5 justify-between items-start pt-9 pr-6 pb-4 pl-1.5 mt-9 text-xs font-extrabold tracking-normal text-center text-white bg-white rounded-xl shadow-[0px_4px_4px_rgba(0,0,0,0.2)]">
+        <img
+          src={item.image}
+          alt={item.name}
+          className="object-contain shrink-0 self-start rounded-full aspect-[0.99] w-[71px]"
+        />
+        <div className="flex flex-col self-start text-xs text-green-600">
+          <h3>{item.name}</h3>
+          <p className="self-start mt-12">₹{item.price}</p>
+        </div>
+        <button
+          onClick={() => handleIncrement(item.id)}
+          className="my-auto"
+          aria-label="Add one"
+        >
+          +
+        </button>
+        <button
+          onClick={() => handleDecrement(item.id)}
+          className="px-2.5 pb-6 my-auto w-6 h-6 whitespace-nowrap bg-green-600 rounded"
+          aria-label="Remove one"
+        >
+          -
+        </button>
+      </article>
+    );
+  };
+
+  // Custom rendering for the third item to match the design exactly
+  const renderThirdItem = () => {
+    const item = burgerItems[2];
+    return (
+      <article className="flex gap-5 justify-between items-start pt-10 pr-6 pb-3.5 pl-1.5 mt-7 w-full font-extrabold tracking-normal text-center bg-white rounded-xl shadow-[0px_4px_4px_rgba(0,0,0,0.2)]">
+        <div className="flex gap-10 items-start self-start text-xs text-green-600">
+          <img
+            src={item.image}
+            alt={item.name}
+            className="object-contain shrink-0 rounded-full aspect-[0.99] w-[71px]"
+          />
+          <div className="flex gap-1 items-start">
+            <p className="grow self-end mt-14">₹{item.price}</p>
+            <h3 className="self-start">{item.name}</h3>
+          </div>
+        </div>
+        <button
+          onClick={() => handleDecrement(item.id)}
+          className="self-end px-2.5 pb-6 mt-7 w-6 h-6 text-xs text-white whitespace-nowrap bg-green-600 rounded"
+          aria-label="Remove one"
+        >
+          -
+        </button>
+      </article>
+    );
+  };
+
+  return (
+    <main className="overflow-hidden mx-auto w-full bg-white max-w-[480px]">
+      <div className="flex flex-col px-2 pt-14 pb-32 w-full">
+        <BurgerHeader />
+
+        {renderFirstItem()}
+        {renderSecondItem()}
+        {renderThirdItem()}
+
+        <AddToCartButton onClick={handleAddToCart} />
+      </div>
+    </main>
+  );
+};
+
+export default BurgerApp;
+import BurgerApp from "./BurgerApp";
+
+export default BurgerApp;
+
