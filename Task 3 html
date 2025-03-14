@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exported Figma Design</title>
+  <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="iphone-14-plus-1-1">
+<div class="rectangle-2-2"></div>
+<div class="rectangle-24-3"></div>
+<p class="text-4"><span class="text-rgb-0-166-19">Menu</span></p>
+<div class="group-5-5">
+<div class="rectangle-7-6"></div>
+<img src="images/vector-7.svg" class="vector-7" alt="vector" />
+<p class="text-8"><span class="text-rgb-0-166-19">Our Food</span></p>
+<p class="text-9"><span class="text-rgb-0-166-19">Today’s Special</span></p>
+<p class="text-10"><span class="text-rgb-0-166-19">Soup</span></p>
+<p class="text-11"><span class="text-rgb-0-166-19">Seafood</span></p>
+<p class="text-12"><span class="text-rgb-0-166-19">All </span></p>
+<p class="text-13"><span class="text-rgb-0-166-19">Featured</span></p>
+<p class="text-14"><span class="text-rgb-0-166-19">Top of Week</span></p>
+<p class="text-15"><span class="text-rgb-0-166-19">Search Your Manus</span></p>
+<div class="rectangle-8-16"></div>
+</div>
+<img src="images/union-17.svg" class="union-17" alt="union" />
+<p class="text-18"><span class="text-rgb-0-166-19"> ₹399</span></p>
+<p class="text-19"><span class="text-black">Veg Burger</span></p>
+<p class="text-20"><span class="text-rgb-0-166-19"> ₹199</span></p>
+<p class="text-21"><span class="text-black">Chicken Burger</span></p>
+<p class="text-22"><span class="text-rgb-0-166-19"> ₹249</span></p>
+<p class="text-23"><span class="text-black">Chicken Burger with French Fries</span></p>
+<p class="text-24"><span class="text-black">French Fries</span></p>
+<p class="text-25"><span class="text-rgb-0-166-19"> ₹120</span></p>
+<img src="images/image-26.png" class="image-26" alt="image" />
+<img src="images/image-27.png" class="image-27" alt="image" />
+<img src="images/image-28.png" class="image-28" alt="image" />
+<img src="images/image-29.png" class="image-29" alt="image" />
+<img src="images/vector-30.svg" class="vector-30" alt="vector" />
+<img src="images/ellipse-5-31.svg" class="ellipse-5-31" alt="ellipse-5" />
+<img src="images/vector-32.svg" class="vector-32" alt="vector" />
+<img src="images/vector-33.svg" class="vector-33" alt="vector" />
+<div class="mdi-light-bell-34">
+<img src="images/vector-35.svg" class="vector-35" alt="vector" />
+</div>
+<img src="images/vector-36.svg" class="vector-36" alt="vector" />
+<div class="mdi-cart-37">
+<img src="images/vector-38.svg" class="vector-38" alt="vector" />
+</div>
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exported Figma Design</title>
+  <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="iphone-14-plus-2-1">
+<div class="rectangle-24-2"></div>
+<div class="status-bar-3">
+<div class="connections-4">
+<div class="battery-5">
+<div class="border-6"></div>
+<div class="capacity-8"></div>
+</div>
+<div class="wifi-9">
+</div>
+<div class="cellular-connection-11">
+</div>
+</div>
+<div class="time-13">
+<p class="text-14"><span class="text-black">9:27</span></p>
+</div>
+</div>
+<div class="rectangle-14-15"></div>
+<div class="rectangle-15-16"></div>
+<div class="rectangle-16-17"></div>
+<p class="text-18"><span class="text-black">Burger</span></p>
+<div class="rectangle-5-19"></div>
+<p class="text-20"><span class="text-white">Add to Cart</span></p>
+<img src="images/image-21.svg" class="image-21" alt="image" />
+<img src="images/image-22.svg" class="image-22" alt="image" />
+<img src="images/image-23.svg" class="image-23" alt="image" />
+<p class="text-24"><span class="text-rgb-0-166-19">Cheese Burger</span></p>
+<p class="text-25"><span class="text-rgb-0-166-19">₹199</span></p>
+<p class="text-26"><span class="text-rgb-0-166-19">Crisspy Cheese Burger</span></p>
+<p class="text-27"><span class="text-rgb-0-166-19">₹230</span></p>
+<p class="text-28"><span class="text-rgb-0-166-19">Veg Burger</span></p>
+<p class="text-29"><span class="text-rgb-0-166-19">₹199</span></p>
+<div class="rectangle-19-30"></div>
+<p class="text-31"><span class="text-white">-</span></p>
+<div class="rectangle-20-32"></div>
+<p class="text-33"><span class="text-white">+</span></p>
+<p class="text-34"><span class="text-white">+</span></p>
+<div class="rectangle-23-35"></div>
+<p class="text-36"><span class="text-white">-</span></p>
+<p class="text-37"><span class="text-white">-</span></p>
+<img src="images/vector-38.svg" class="vector-38" alt="vector" />
+<div class="mdi-heart-outline-39">
+<img src="images/vector-40.svg" class="vector-40" alt="vector" />
+</div>
+<div class="mdi-cart-41">
+<img src="images/vector-42.svg" class="vector-42" alt="vector" />
+</div>
+</div>
+
+</body>
+</html>
+
+
